@@ -81,6 +81,9 @@ public final class Config {
     private static final ModConfigSpec.BooleanValue HIDE_SAVING_INDICATOR = BUILDER
             .comment("Hide the saving indicator.")
             .define("hideSavingIndicator", false);
+    private static final ModConfigSpec.BooleanValue CREATE_SCREEN_OVERRIDE = BUILDER
+            .comment("Enable the simplified classic-style Create New World screen. Requires a client restart after changing.")
+            .define("createScreenOverride", true);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 
@@ -109,6 +112,7 @@ public final class Config {
     public static boolean hideTabList;
     public static boolean hideSubtitleOverlay;
     public static boolean hideSavingIndicator;
+    public static boolean createScreenOverride;
 
     private Config() {}
 
@@ -138,5 +142,6 @@ public final class Config {
         hideTabList = HIDE_TAB_LIST.get();
         hideSubtitleOverlay = HIDE_SUBTITLE_OVERLAY.get();
         hideSavingIndicator = HIDE_SAVING_INDICATOR.get();
+        createScreenOverride = CREATE_SCREEN_OVERRIDE.get();
     }
 }

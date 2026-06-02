@@ -1,8 +1,12 @@
 {
   "required": true,
   "package": "com.ddd.simplehidehud.mixin",
+  "plugin": "com.ddd.simplehidehud.mixin.CreateWorldScreenMixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
+  "client": [
+    "CreateWorldScreenMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

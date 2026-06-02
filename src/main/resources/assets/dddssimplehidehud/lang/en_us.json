@@ -26,5 +26,6 @@
   "dddssimplehidehud.configuration.hideChat": "Hide Chat",
   "dddssimplehidehud.configuration.hideTabList": "Hide Tab List",
   "dddssimplehidehud.configuration.hideSubtitleOverlay": "Hide Subtitle Overlay",
-  "dddssimplehidehud.configuration.hideSavingIndicator": "Hide Saving Indicator"
+  "dddssimplehidehud.configuration.hideSavingIndicator": "Hide Saving Indicator",
+  "dddssimplehidehud.configuration.createScreenOverride": "Simplified Create World Screen"
 }
