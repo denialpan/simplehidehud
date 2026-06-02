@@ -1,7 +1,7 @@
 Installation information
 =======
 
-1. Download this mod from here: https://modrinth.com/mod/dsh
+1. Download this mod from here: https://modrinth.com/mod/ddd-random-things
 2. Place mod in your mods folder
 
 Build information
